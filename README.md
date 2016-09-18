@@ -1,5 +1,5 @@
 # Automatic-Path-Finder
-A project which uses various traversal algorithms like BFS, DFS, UCS and A* along with loop detection to find a path between two locations on a map ( given in the form of input of road intersections ).
+A project which uses various graph traversal algorithms like BFS, DFS, UCS and A* along with loop detection to find a path between two locations on a map ( given in the form of input of road intersections ).
 
 Project Description:
 The Los Angeles Lakers are playing against their rivals the Boston Celtics tonight. Lakers star Jordan Clarkson wants to arrive earlier today to prepare himself for the game, and he is leaving from his mansion at Newport Coast to Staples Center. As everyone knows, Los Angeles is notorious for its traffic. Driving his 2016 Lamborghini Aventador, Jordan definitely does not want to be stuck in traffic. Please help Jordan find a route to get him to Staples Center as fast as possible.
