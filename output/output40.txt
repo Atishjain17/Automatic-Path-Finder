@@ -1,0 +1,13 @@
+input40.txt
+BFS
+A 0
+Z 1
+DFS
+A 0
+Z 1
+UCS
+A 0
+Z 2
+A*
+A 0
+Z 2

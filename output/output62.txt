@@ -1,0 +1,21 @@
+input62.txt
+BFS
+S 0
+C 1
+B 2
+G 3
+DFS
+S 0
+C 1
+B 2
+G 3
+UCS
+S 0
+C 1
+B 2
+G 3
+A*
+S 0
+A 1
+B 2
+G 3

@@ -1,0 +1,26 @@
+input52.txt
+BFS
+F 0
+Kas 1
+Mu 2
+Nu 3
+S 4
+DFS
+F 0
+Ka 1
+A 2
+Mu 3
+Nu 4
+S 5
+UCS
+F 0
+Kas 12
+Mu 22
+Nu 38
+S 138
+A*
+F 0
+Kas 12
+Mu 22
+Nu 38
+S 138

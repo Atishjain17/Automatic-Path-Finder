@@ -1,0 +1,17 @@
+input48.txt
+BFS
+Andy 0
+Bill 1
+Zoe 2
+DFS
+Andy 0
+Bill 1
+Zoe 2
+UCS
+Andy 0
+Daniel 2
+Zoe 4
+A*
+Andy 0
+Daniel 2
+Zoe 4

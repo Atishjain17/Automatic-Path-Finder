@@ -1,0 +1,21 @@
+input53.txt
+BFS
+F 0
+w 1
+Er 2
+DFS
+F 0
+M 1
+Ka 2
+A 3
+Mu 4
+Nu 5
+Er 6
+UCS
+F 0
+w 21
+Er 39
+A*
+F 0
+w 21
+Er 39

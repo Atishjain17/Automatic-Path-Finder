@@ -1,0 +1,19 @@
+input44.txt
+BFS
+A 0
+B 1
+E 2
+DFS
+A 0
+B 1
+E 2
+UCS
+A 0
+C 2
+D 3
+E 7
+A*
+A 0
+C 2
+D 3
+E 7

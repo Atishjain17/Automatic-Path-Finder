@@ -1,0 +1,1401 @@
+
+input0.txt
+BFS
+A 0
+DFS
+A 0
+UCS
+A 0
+A*
+A 0
+
+input1.txt
+BFS
+A 0
+C 1
+G 2
+DFS
+A 0
+B 1
+E 2
+G 3
+UCS
+A 0
+B 2
+E 6
+G 8
+A*
+A 0
+B 2
+E 6
+G 8
+
+input2.txt
+BFS
+A 0
+C 1
+E 2
+DFS
+A 0
+C 1
+E 2
+UCS
+A 0
+C 2
+E 11
+A*
+A 0
+C 2
+E 11
+
+input3.txt
+BFS
+A 0
+B 1
+D 2
+E 3
+DFS
+A 0
+B 1
+D 2
+E 3
+UCS
+A 0
+B 6
+D 9
+E 16
+A*
+A 0
+B 6
+D 9
+E 16
+
+input4.txt
+BFS
+S 0
+D 1
+E 2
+F 3
+G 4
+DFS
+S 0
+A 1
+B 2
+E 3
+F 4
+G 5
+UCS
+S 0
+D 2
+E 4
+F 6
+G 8
+A*
+S 0
+D 2
+E 4
+F 6
+G 8
+
+input5.txt
+BFS
+A 0
+C 1
+D 2
+E 3
+DFS
+A 0
+B 1
+F 2
+D 3
+E 4
+UCS
+A 0
+C 8
+D 9
+E 16
+A*
+A 0
+C 8
+D 9
+E 16
+
+input6.txt
+BFS
+A 0
+E 1
+DFS
+A 0
+E 1
+UCS
+A 0
+E 5
+A*
+A 0
+E 5
+
+input7.txt
+BFS
+A 0
+B 1
+E 2
+DFS
+A 0
+B 1
+E 2
+UCS
+A 0
+B 2
+E 5
+A*
+A 0
+B 2
+E 5
+
+input8.txt
+BFS
+A 0
+E 1
+DFS
+A 0
+E 1
+UCS
+A 0
+E 5
+A*
+A 0
+E 5
+
+input9.txt
+BFS
+A 0
+C 1
+F 2
+H 3
+DFS
+A 0
+C 1
+F 2
+H 3
+UCS
+A 0
+C 5
+F 10
+H 18
+A*
+A 0
+C 5
+F 10
+H 18
+
+input10.txt
+BFS
+A 0
+C 1
+D 2
+F 3
+DFS
+A 0
+C 1
+D 2
+F 3
+UCS
+A 0
+C 2
+D 4
+F 6
+A*
+A 0
+C 2
+D 4
+F 6
+
+input11.txt
+BFS
+A 0
+B 1
+G 2
+DFS
+A 0
+B 1
+G 2
+UCS
+A 0
+B 2
+G 8
+A*
+A 0
+B 2
+G 8
+
+input12.txt
+BFS
+S 0
+D 1
+E 2
+F 3
+G 4
+DFS
+S 0
+A 1
+B 2
+E 3
+F 4
+G 5
+UCS
+S 0
+D 2
+E 4
+F 6
+G 8
+A*
+S 0
+D 2
+E 4
+F 6
+G 8
+
+input13.txt
+BFS
+A 0
+B 1
+D 2
+E 3
+DFS
+A 0
+B 1
+D 2
+E 3
+UCS
+A 0
+C 5
+D 11
+E 20
+A*
+A 0
+C 5
+D 11
+E 20
+
+input14.txt
+BFS
+A 0
+E 1
+F 2
+G 3
+DFS
+A 0
+B 1
+C 2
+D 3
+G 4
+UCS
+A 0
+B 5
+C 8
+D 10
+G 11
+A*
+A 0
+E 3
+F 6
+G 14
+
+input15.txt
+BFS
+A 0
+B 1
+E 2
+DFS
+A 0
+B 1
+E 2
+UCS
+A 0
+B 5
+E 8
+A*
+A 0
+B 5
+E 8
+
+input16.txt
+BFS
+A 0
+C 1
+D 2
+E 3
+DFS
+A 0
+C 1
+D 2
+E 3
+UCS
+A 0
+C 3
+D 12
+E 14
+A*
+A 0
+C 3
+D 12
+E 14
+
+input17.txt
+BFS
+A 0
+D 1
+E 2
+DFS
+A 0
+B 1
+C 2
+E 3
+UCS
+A 0
+D 3
+E 5
+A*
+A 0
+D 3
+E 5
+
+input18.txt
+BFS
+A 0
+C 1
+DFS
+A 0
+C 1
+UCS
+A 0
+C 5
+A*
+A 0
+C 5
+
+input19.txt
+BFS
+A 0
+B 1
+E 2
+H 3
+DFS
+A 0
+B 1
+E 2
+H 3
+UCS
+A 0
+B 1
+E 2
+H 3
+A*
+A 0
+C 1
+F 2
+H 3
+
+input20.txt
+BFS
+A 0
+B 1
+D 2
+DFS
+A 0
+B 1
+D 2
+UCS
+A 0
+C 3
+D 4
+A*
+A 0
+C 3
+D 4
+
+input21.txt
+BFS
+A 0
+D 1
+F 2
+G 3
+DFS
+A 0
+B 1
+C 2
+F 3
+G 4
+UCS
+A 0
+D 2
+F 3
+G 4
+A*
+A 0
+D 2
+F 3
+G 4
+
+input22.txt
+BFS
+S 0
+B 1
+G 2
+DFS
+S 0
+A 1
+E 2
+G 3
+UCS
+S 0
+C 1
+D 2
+B 3
+G 6
+A*
+S 0
+C 1
+D 2
+B 3
+G 6
+
+input23.txt
+BFS
+S 0
+A 1
+C 2
+E 3
+Z 4
+DFS
+S 0
+A 1
+C 2
+E 3
+Z 4
+UCS
+S 0
+B 4
+C 7
+E 9
+Z 11
+A*
+S 0
+B 4
+C 7
+E 9
+Z 11
+
+input24.txt
+BFS
+A 0
+C 1
+D 2
+DFS
+A 0
+C 1
+D 2
+UCS
+A 0
+C 1
+D 3
+A*
+A 0
+C 1
+D 3
+
+input25.txt
+BFS
+S 0
+B 1
+G 2
+DFS
+S 0
+B 1
+G 2
+UCS
+S 0
+B 1
+G 2
+A*
+S 0
+B 1
+G 2
+
+input26.txt
+BFS
+S 0
+C 1
+D 2
+DFS
+S 0
+A 1
+B 2
+D 3
+UCS
+S 0
+A 2
+B 5
+D 9
+A*
+S 0
+A 2
+B 5
+D 9
+
+input27.txt
+BFS
+S 0
+C 1
+D 2
+DFS
+S 0
+A 1
+B 2
+D 3
+UCS
+S 0
+A 2
+B 5
+D 9
+A*
+S 0
+A 2
+C 5
+D 9
+
+input28.txt
+BFS
+s 0
+c 1
+b 2
+g 3
+DFS
+s 0
+c 1
+b 2
+g 3
+UCS
+s 0
+c 1
+b 2
+g 3
+A*
+s 0
+c 1
+d 2
+g 3
+
+input29.txt
+BFS
+A 0
+B 1
+D 2
+DFS
+A 0
+B 1
+D 2
+UCS
+A 0
+C 3
+D 5
+A*
+A 0
+C 3
+D 5
+
+input30.txt
+BFS
+S 0
+B 1
+G 2
+DFS
+S 0
+B 1
+G 2
+UCS
+S 0
+C 1
+D 2
+B 3
+G 6
+A*
+S 0
+C 1
+D 2
+B 3
+G 6
+
+input31.txt
+BFS
+A 0
+B 1
+C 2
+D 3
+DFS
+A 0
+B 1
+C 2
+D 3
+UCS
+A 0
+B 1
+C 2
+D 3
+A*
+A 0
+B 1
+C 2
+D 3
+
+input32.txt
+BFS
+S 0
+A 1
+B 2
+G 3
+DFS
+S 0
+A 1
+B 2
+G 3
+UCS
+S 0
+A 1
+B 2
+C 3
+D 8
+E 13
+F 18
+G 23
+A*
+S 0
+A 1
+B 2
+C 3
+D 8
+E 13
+F 18
+G 23
+
+input33.txt
+BFS
+S 0
+G 1
+DFS
+S 0
+G 1
+UCS
+S 0
+A 1
+C 2
+G 4
+A*
+S 0
+A 1
+C 2
+G 4
+
+input34.txt
+BFS
+A 0
+B 1
+E 2
+H 3
+DFS
+A 0
+B 1
+E 2
+H 3
+UCS
+A 0
+B 1
+E 2
+H 3
+A*
+A 0
+B 1
+E 2
+H 3
+
+input35.txt
+BFS
+A 0
+C 1
+D 2
+DFS
+A 0
+C 1
+D 2
+UCS
+A 0
+B 2
+D 6
+A*
+A 0
+B 2
+D 6
+
+input36.txt
+BFS
+S 0
+B 1
+G 2
+DFS
+S 0
+B 1
+G 2
+UCS
+S 0
+B 1
+G 2
+A*
+S 0
+B 1
+G 2
+
+input37.txt
+BFS
+s 0
+c 1
+b 2
+g 3
+DFS
+s 0
+c 1
+b 2
+g 3
+UCS
+s 0
+c 1
+b 2
+g 3
+A*
+s 0
+c 1
+d 2
+g 3
+
+input38.txt
+BFS
+A 0
+C 1
+Z 2
+DFS
+A 0
+B 1
+E 2
+F 3
+Z 4
+UCS
+A 0
+C 3
+Z 5
+A*
+A 0
+C 3
+Z 5
+
+input39.txt
+BFS
+A 0
+B 1
+Z 2
+DFS
+A 0
+B 1
+Z 2
+UCS
+A 0
+B 4
+Z 6
+A*
+A 0
+B 4
+Z 6
+
+input40.txt
+BFS
+A 0
+Z 1
+DFS
+A 0
+Z 1
+UCS
+A 0
+Z 2
+A*
+A 0
+Z 2
+
+input41.txt
+BFS
+A 0
+B 1
+D 2
+DFS
+A 0
+B 1
+D 2
+UCS
+A 0
+C 3
+D 5
+A*
+A 0
+C 3
+D 5
+
+input42.txt
+BFS
+A 0
+DFS
+A 0
+UCS
+A 0
+A*
+A 0
+
+input43.txt
+BFS
+A 0
+C 1
+D 2
+DFS
+A 0
+C 1
+D 2
+UCS
+A 0
+C 1
+D 3
+A*
+A 0
+C 1
+D 3
+
+input44.txt
+BFS
+A 0
+B 1
+E 2
+DFS
+A 0
+B 1
+E 2
+UCS
+A 0
+C 2
+D 3
+E 7
+A*
+A 0
+C 2
+D 3
+E 7
+
+input45.txt
+BFS
+A 0
+B 1
+E 2
+DFS
+A 0
+B 1
+E 2
+UCS
+A 0
+B 1
+E 7
+A*
+A 0
+B 1
+E 7
+
+input46.txt
+BFS
+S 0
+F 1
+B 2
+DFS
+S 0
+F 1
+B 2
+UCS
+S 0
+R 80
+P 177
+B 278
+A*
+S 0
+R 80
+P 177
+B 278
+
+input47.txt
+BFS
+D 0
+E 1
+X 2
+B 3
+C 4
+DFS
+D 0
+E 1
+X 2
+B 3
+C 4
+UCS
+D 0
+E 1
+Y 2
+X 7
+B 9
+C 14
+A*
+D 0
+E 1
+Y 2
+X 7
+B 9
+C 14
+
+input48.txt
+BFS
+Andy 0
+Bill 1
+Zoe 2
+DFS
+Andy 0
+Bill 1
+Zoe 2
+UCS
+Andy 0
+Daniel 2
+Zoe 4
+A*
+Andy 0
+Daniel 2
+Zoe 4
+
+input49.txt
+BFS
+D 0
+E 1
+X 2
+B 3
+C 4
+DFS
+D 0
+E 1
+X 2
+B 3
+C 4
+UCS
+D 0
+E 1
+X 2
+B 3
+C 4
+A*
+D 0
+E 1
+X 2
+B 3
+C 4
+
+input50.txt
+BFS
+A 0
+DFS
+A 0
+UCS
+A 0
+A*
+A 0
+
+input51.txt
+BFS
+A 0
+E 1
+F 2
+G 3
+H 4
+DFS
+A 0
+E 1
+F 2
+G 3
+H 4
+UCS
+A 0
+I 1
+J 2
+K 3
+L 4
+H 5
+A*
+A 0
+I 1
+J 2
+K 3
+L 4
+H 5
+
+input52.txt
+BFS
+F 0
+Kas 1
+Mu 2
+Nu 3
+S 4
+DFS
+F 0
+Ka 1
+A 2
+Mu 3
+Nu 4
+S 5
+UCS
+F 0
+Kas 12
+Mu 22
+Nu 38
+S 138
+A*
+F 0
+Kas 12
+Mu 22
+Nu 38
+S 138
+
+input53.txt
+BFS
+F 0
+w 1
+Er 2
+DFS
+F 0
+M 1
+Ka 2
+A 3
+Mu 4
+Nu 5
+Er 6
+UCS
+F 0
+w 21
+Er 39
+A*
+F 0
+w 21
+Er 39
+
+input54.txt
+BFS
+A 0
+B 1
+D 2
+DFS
+A 0
+B 1
+D 2
+UCS
+A 0
+B 2
+D 3
+A*
+A 0
+B 2
+D 3
+
+input55.txt
+BFS
+A 0
+D 1
+F 2
+G 3
+DFS
+A 0
+B 1
+C 2
+F 3
+G 4
+UCS
+A 0
+D 2
+F 3
+G 4
+A*
+A 0
+D 2
+F 3
+G 4
+
+input56.txt
+BFS
+S 0
+C 1
+D 2
+DFS
+S 0
+A 1
+B 2
+D 3
+UCS
+S 0
+A 2
+B 5
+D 9
+A*
+S 0
+A 2
+B 5
+D 9
+
+input57.txt
+BFS
+S 0
+C 1
+D 2
+DFS
+S 0
+A 1
+B 2
+D 3
+UCS
+S 0
+A 2
+B 5
+D 9
+A*
+S 0
+A 2
+C 5
+D 9
+
+input58.txt
+BFS
+A 0
+C 1
+F 2
+H 3
+DFS
+A 0
+C 1
+F 2
+H 3
+UCS
+A 0
+C 1
+F 2
+H 3
+A*
+A 0
+C 1
+F 2
+H 3
+
+input59.txt
+BFS
+S 0
+B 1
+G 2
+DFS
+S 0
+B 1
+G 2
+UCS
+S 0
+B 1
+G 2
+A*
+S 0
+B 1
+G 2
+
+input60.txt
+BFS
+S 0
+B 1
+G 2
+DFS
+S 0
+B 1
+G 2
+UCS
+S 0
+B 1
+G 2
+A*
+S 0
+B 1
+G 2
+
+input61.txt
+BFS
+S 0
+B 1
+G 2
+DFS
+S 0
+B 1
+G 2
+UCS
+S 0
+B 1
+G 2
+A*
+S 0
+B 1
+G 2
+
+input62.txt
+BFS
+S 0
+C 1
+B 2
+G 3
+DFS
+S 0
+C 1
+B 2
+G 3
+UCS
+S 0
+C 1
+B 2
+G 3
+A*
+S 0
+A 1
+B 2
+G 3
+
+input63.txt
+BFS
+S 0
+C 1
+DFS
+S 0
+C 1
+UCS
+S 0
+C 3
+A*
+S 0
+C 3
+
+input64.txt
+BFS
+S 0
+D 1
+DFS
+S 0
+D 1
+UCS
+S 0
+D 1
+A*
+S 0
+D 1
+
+input65.txt
+BFS
+S 0
+B 1
+G 2
+DFS
+S 0
+B 1
+G 2
+UCS
+S 0
+B 3
+G 8
+A*
+S 0
+B 3
+G 8
+
+input66.txt
+BFS
+Ĵ 0
+ķ 1
+DFS
+Ĵ 0
+ķ 1
+UCS
+Ĵ 0
+ķ 10
+A*
+Ĵ 0
+ķ 10
+
+input67.txt
+BFS
+S 0
+P 1
+Q 2
+W 3
+G 4
+DFS
+S 0
+P 1
+Q 2
+W 3
+G 4
+UCS
+S 0
+P 3
+Q 4
+R 6
+G 8
+A*
+S 0
+P 3
+Q 4
+R 6
+G 8
+
+input68.txt
+BFS
+X 0
+P 1
+Q 2
+W 3
+G 4
+DFS
+X 0
+P 1
+Q 2
+W 3
+G 4
+UCS
+X 0
+S 2
+P 5
+Q 6
+R 8
+G 10
+A*
+X 0
+S 2
+P 5
+Q 6
+R 8
+G 10
+
+input69.txt
+BFS
+Q 0
+W 1
+DFS
+Q 0
+W 1
+UCS
+Q 0
+W 6
+A*
+Q 0
+W 6

@@ -1,0 +1,29 @@
+input32.txt
+BFS
+S 0
+A 1
+B 2
+G 3
+DFS
+S 0
+A 1
+B 2
+G 3
+UCS
+S 0
+A 1
+B 2
+C 3
+D 8
+E 13
+F 18
+G 23
+A*
+S 0
+A 1
+B 2
+C 3
+D 8
+E 13
+F 18
+G 23

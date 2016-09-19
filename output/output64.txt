@@ -1,0 +1,13 @@
+input64.txt
+BFS
+S 0
+D 1
+DFS
+S 0
+D 1
+UCS
+S 0
+D 1
+A*
+S 0
+D 1

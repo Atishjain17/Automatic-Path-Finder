@@ -1,0 +1,19 @@
+input38.txt
+BFS
+A 0
+C 1
+Z 2
+DFS
+A 0
+B 1
+E 2
+F 3
+Z 4
+UCS
+A 0
+C 3
+Z 5
+A*
+A 0
+C 3
+Z 5

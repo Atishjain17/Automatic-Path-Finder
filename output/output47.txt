@@ -1,0 +1,27 @@
+input47.txt
+BFS
+D 0
+E 1
+X 2
+B 3
+C 4
+DFS
+D 0
+E 1
+X 2
+B 3
+C 4
+UCS
+D 0
+E 1
+Y 2
+X 7
+B 9
+C 14
+A*
+D 0
+E 1
+Y 2
+X 7
+B 9
+C 14

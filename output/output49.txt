@@ -1,0 +1,25 @@
+input49.txt
+BFS
+D 0
+E 1
+X 2
+B 3
+C 4
+DFS
+D 0
+E 1
+X 2
+B 3
+C 4
+UCS
+D 0
+E 1
+X 2
+B 3
+C 4
+A*
+D 0
+E 1
+X 2
+B 3
+C 4

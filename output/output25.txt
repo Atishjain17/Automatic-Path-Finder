@@ -1,0 +1,17 @@
+input25.txt
+BFS
+S 0
+B 1
+G 2
+DFS
+S 0
+B 1
+G 2
+UCS
+S 0
+B 1
+G 2
+A*
+S 0
+B 1
+G 2

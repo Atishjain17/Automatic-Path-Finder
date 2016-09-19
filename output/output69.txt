@@ -1,0 +1,13 @@
+input69.txt
+BFS
+Q 0
+W 1
+DFS
+Q 0
+W 1
+UCS
+Q 0
+W 6
+A*
+Q 0
+W 6

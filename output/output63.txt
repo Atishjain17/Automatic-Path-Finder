@@ -1,0 +1,13 @@
+input63.txt
+BFS
+S 0
+C 1
+DFS
+S 0
+C 1
+UCS
+S 0
+C 3
+A*
+S 0
+C 3

@@ -1,0 +1,17 @@
+input33.txt
+BFS
+S 0
+G 1
+DFS
+S 0
+G 1
+UCS
+S 0
+A 1
+C 2
+G 4
+A*
+S 0
+A 1
+C 2
+G 4

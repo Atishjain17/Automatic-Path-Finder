@@ -1,0 +1,9 @@
+input0.txt
+BFS
+A 0
+DFS
+A 0
+UCS
+A 0
+A*
+A 0
