@@ -1,4 +1,4 @@
-## Automated program to run all 69 sample input files for all 4 algorithms
+## Automated program to run all 70 sample input files for all 4 algorithms
 for p in range(70):
         print("***************************"+str(p)) /// Displays currebt file number
         input_file_name='input'+str(p)+'.txt'
