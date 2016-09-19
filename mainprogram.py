@@ -46,7 +46,7 @@ print(live_TrafficLines)
 # sundayTrafficLines (From,Cost)
 no_of_Sunday_TrafficLines = int(input[liveTraffic_line_no])
 sunday_TrafficLines_temp =[]
-for i in range(liveTraffic_line_no+1, len(input)):
+for i in range(liveTraffic_line_no+1, liveTraffic_line_no+no_of_Sunday_TrafficLines+1):
     sunday_TrafficLines_temp.append(input[i])
 
 sunday_TrafficLines = []
