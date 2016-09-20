@@ -1,7 +1,5 @@
-import time
-start_time = time.time()
 ### Input Code
-input_file = open('input1.txt','r')
+input_file = open('input.txt','r')
 input = input_file.read()
 input_file.close()
 input = input.split('\n')
@@ -111,12 +109,12 @@ def printtofile(sol):
         parent_node = parent_found.parent
     #print (solution)
 
-    f = open("output1.txt", "w")
+    f = open("output.txt", "w")
 #    f.write(algo+"\n")
     for i in solution[::-1]:
         f.write(i[0]+" "+str(i[1])+"\n")
     f.close()
-    print("--- %s seconds ---" % (time.time() - start_time))
+    #print("--- %s seconds ---" % (time.time() - start_time))
 ### Printtofile defined
 
 ### BFS
@@ -155,8 +153,8 @@ def BFS():
                         break
                 if (opens!=1 and closes!=1):
                     node_state_no += 1
-                    g=currnode.depth + 1
-                    depth=g
+                    depth=currnode.depth + 1
+                    g=depth
                     parent=currnode.node
                     opened.append(Node_State(node_state_no,currchild,g,depth,parent))
                     if(currchild == goal_state):
@@ -353,8 +351,6 @@ if (algo == 'BFS'):
     else:
         closed.append(sol)
         #print ("Solution:"+sol.description())
-        #for i in range(len(closed)):
-        #    closed[i].g=closed[i].depth
         printtofile(sol)
     print ('BFS')
 ### BFS Completed
@@ -367,8 +363,6 @@ elif (algo == 'DFS'):
     else:
         closed.append(sol)
         #print ("Solution:"+sol.description())
-        for i in range(len(closed)):
-            closed[i].g=closed[i].depth
         printtofile(sol)
     print ('DFS')
 ### DFS Completed
