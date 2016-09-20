@@ -1,4 +1,3 @@
-
 ### Input Code
 input_file = open('input.txt','r')
 input = input_file.read()
@@ -38,7 +37,7 @@ for i in range(len(live_TrafficLines_temp)):
 for i in range(len(live_TrafficLines)):
     live_TrafficLines[i][2] = int(live_TrafficLines[i][2])
     live_TrafficLines[i][3] = int(live_TrafficLines[i][3])
-print(live_TrafficLines)
+#print(live_TrafficLines)
 # Finished assigning live traffic lines with an extra last column which gives /
 # the order in which input arrived
 
@@ -55,7 +54,7 @@ for i in range(len(sunday_TrafficLines_temp)):
 
 for i in range(len(sunday_TrafficLines)):
     sunday_TrafficLines[i][1] = int(sunday_TrafficLines[i][1])
-print (sunday_TrafficLines)
+#print (sunday_TrafficLines)
 # Finished assigning sunday traffic lines
 # All values assigned from input file
 ### Input Code Completed
@@ -93,31 +92,29 @@ class Node_State_Heuristic(object):
 def findparent(parent_node):
     for i in range(len(closed)):
         if closed[i].node == parent_node:
-            print ('FINDPARENT:'+str(i))
+            #print ('FINDPARENT:'+str(i))
             return i
     else:
         print ('Parent Not Found')
 
 def printtofile(sol):
-    print("Printing To File")
+    #print("Printing To File")
     solution=[]
     solution.append([sol.state, sol.g])
     parent_node=sol.parent
-    for i in range (len(closed)):
-        print(closed[i].description())
     while(parent_node!=0):
         j=findparent(parent_node)
         parent_found=closed[j]
         solution.append([parent_found.state,parent_found.g])
         parent_node = parent_found.parent
-    print (solution)
+    #print (solution)
 
     f = open("output.txt", "w")
 #    f.write(algo+"\n")
     for i in solution[::-1]:
-        print (i)
         f.write(i[0]+" "+str(i[1])+"\n")
     f.close()
+    #print("--- %s seconds ---" % (time.time() - start_time))
 ### Printtofile defined
 
 ### BFS
@@ -129,7 +126,7 @@ def BFS():
 
     while (opened != []):
         currnode = opened.pop(0)
-        print("Current Node: "+ currnode.state)
+#        print("Current Node: "+ currnode.state)
         if(currnode.state == goal_state):
             print('Success')
             return currnode
@@ -146,27 +143,24 @@ def BFS():
                 currchild=children[i][1]
                 for j in range(len(opened)):
                     if(currchild == opened[j].state):
-                        print("Open:"+currchild)
+                        #print("Open:"+currchild)
                         opens = 1
                         break
                 for j in range(len(closed)):
                     if(currchild == closed[j].state):
-                        print("Closed")
+                        #print("Closed")
                         closes = 1
                         break
                 if (opens!=1 and closes!=1):
                     node_state_no += 1
-                    g=currnode.g + children[i][2]
                     depth=currnode.depth + 1
+                    g=depth
                     parent=currnode.node
                     opened.append(Node_State(node_state_no,currchild,g,depth,parent))
                     if(currchild == goal_state):
                         print ('Success')
                         z = opened.pop(-1)
                         return z
-            print("Final")
-            for i in range(len(opened)):
-                print(opened[i].description())
     else:
         return 'Failure'
 ### BFS defined
@@ -175,11 +169,10 @@ def DFS():
     node_state_no = 1
     root_node = Node_State(node_state_no,start_state,0,0,0)
     opened.append(root_node)
-    print(opened[0].description())
 
     while (opened != []):
         currnode = opened.pop(-1)
-        print("Current Node: "+ currnode.state)
+        #print("Current Node: "+ currnode.state)
         if(currnode.state == goal_state):
             print('Success')
             return currnode
@@ -189,35 +182,31 @@ def DFS():
             for i in range(len(live_TrafficLines)):
                 if(currnode.state == live_TrafficLines[i][0]):
                     children.insert(0,live_TrafficLines[i])
-            print (children)
             for i in range(len(children)):
                 opens = 0
                 closes = 0
                 k = 0
                 currchild=children[i][1]
-                print(currchild)
                 for j in range(len(opened)):
                     if(currchild == opened[j].state):
-                        print("Open:"+currchild)
+                        #print("Open:"+currchild)
                         opens = 1
                         k = j
                         break
                 for j in range(len(closed)):
                     if(currchild == closed[j].state):
-                        print("Closed")
+                        #print("Closed")
                         closes = 1
                         break
                 if (closes!=1):
                     node_state_no += 1
-                    g=currnode.g + children[i][2]
                     depth=currnode.depth + 1
+                    g=depth
                     parent=currnode.node
                     if(opens == 1 and depth > opened[k].depth):
                         print("Skip Node...Loop Detection")
                     else:
                         opened.append(Node_State(node_state_no,currchild,g,depth,parent))
-            for i in range(len(opened)):
-                print(opened[i].description())
     else:
         return 'Failure'
 ### DFS defined
@@ -231,7 +220,7 @@ def UCS():
 
     while (opened != []):
         currnode = opened.pop(0)
-        print("Current Node: "+ currnode.state)
+        #print("Current Node: "+ currnode.state)
         if(currnode.state == goal_state):
             print('Success')
             return currnode
@@ -250,13 +239,13 @@ def UCS():
                 closes = 0
                 for j in range(len(opened)):
                     if(currchild == opened[j].state):
-                        print("Open")
+                        #print("Open")
                         opens=1
                         k = j
                         break
                 for j in range(len(closed)):
                     if(currchild == closed[j].state):
-                        print("Closed")
+                        #print("Closed")
                         k = j
                         closes=1
                         break
@@ -268,27 +257,19 @@ def UCS():
                     if(opens == 1 ):
                         if(g < opened[k].g):
                           removednode = opened.pop(k)
-                          print("Node removed from open:" + removednode.description())
+                          #print("Node removed from open:" + removednode.description())
                           opened.append(Node_State(node_state_no,currchild,g,depth,parent))
 
                     elif(closes == 1):
                         if(g < closed[k].g):
                           removednode = closed.pop(k)
-                          print("Node removed from close:" + removednode.description())
+                          #print("Node removed from close:" + removednode.description())
                           opened.append(Node_State(node_state_no,currchild,g,depth,parent))
 
                     else:
                         opened.append(Node_State(node_state_no,currchild,g,depth,parent))
-                    print("Before sorting")
-                    for i in range(len(opened)):
-                        print(opened[i].description())
                     opened.sort(key=lambda x: x.g)
-                    print("After sorting")
-                    for i in range(len(opened)):
-                        print(opened[i].description())
 
-            for i in range(len(opened)):
-                print(opened[i].description())
     else:
         return 'Failure'
 ### UCS Defined
@@ -302,7 +283,7 @@ def AStar():
 
     while (opened != []):
         currnode = opened.pop(0)
-        print("Current Node: "+ currnode.state)
+        #print("Current Node: "+ currnode.state)
         if(currnode.state == goal_state):
             print('Success')
             return currnode
@@ -321,18 +302,17 @@ def AStar():
                 child_index = -1
                 for j in range(len(sunday_TrafficLines)):
                     if(currchild == sunday_TrafficLines[j][0]):
-                        print(sunday_TrafficLines[j])
                         child_index = j
                         break
                 for j in range(len(opened)):
                     if(currchild == opened[j].state):
-                        print("Open")
+                        #print("Open")
                         opens=1
                         k = j
                         break
                 for j in range(len(closed)):
                     if(currchild == closed[j].state):
-                        print("Closed")
+                        #print("Closed")
                         k = j
                         closes=1
                         break
@@ -346,21 +326,18 @@ def AStar():
                     if(opens == 1 ):
                         if(g < opened[k].g):
                           removednode = opened.pop(k)
-                          print("Node removed from open:" + removednode.description())
+                          #print("Node removed from open:" + removednode.description())
                           opened.append(Node_State_Heuristic(node_state_no,currchild,g,depth,parent,h,f))
 
                     elif(closes == 1):
                         if(g < closed[k].g):
                           removednode = closed.pop(k)
-                          print("Node removed from close:" + removednode.description())
+                          #print("Node removed from close:" + removednode.description())
                           opened.append(Node_State_Heuristic(node_state_no,currchild,g,depth,parent,h,f))
 
                     else:
                         opened.append(Node_State_Heuristic(node_state_no,currchild,g,depth,parent,h,f))
                     opened.sort(key=lambda x: x.f)
-                    print("After sorting")
-                    for i in range(len(opened)):
-                        print(opened[i].description())
 
     else:
         return 'Failure'
@@ -373,9 +350,7 @@ if (algo == 'BFS'):
         print('Failure')
     else:
         closed.append(sol)
-        print ("Solution:"+sol.description())
-        for i in range(len(closed)):
-            closed[i].g=closed[i].depth
+        #print ("Solution:"+sol.description())
         printtofile(sol)
     print ('BFS')
 ### BFS Completed
@@ -387,9 +362,7 @@ elif (algo == 'DFS'):
         print('Failure')
     else:
         closed.append(sol)
-        print ("Solution:"+sol.description())
-        for i in range(len(closed)):
-            closed[i].g=closed[i].depth
+        #print ("Solution:"+sol.description())
         printtofile(sol)
     print ('DFS')
 ### DFS Completed
@@ -401,7 +374,7 @@ elif (algo == 'UCS'):
         print('Failure')
     else:
         closed.append(sol)
-        print ("Solution:"+sol.description())
+        #print ("Solution:"+sol.description())
         printtofile(sol)
     print ('UCS')
 ### UCS Completed
@@ -413,7 +386,7 @@ elif (algo == 'A*'):
         print('Failure')
     else:
         closed.append(sol)
-        print ("Solution:"+sol.description())
+        #print ("Solution:"+sol.description())
         printtofile(sol)
     print ('A*')
 ### A* Completed
