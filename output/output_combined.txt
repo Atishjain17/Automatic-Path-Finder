@@ -1399,3 +1399,627 @@ W 6
 A*
 Q 0
 W 6
+
+input70.txt
+BFS
+A 0
+A1 1
+A5 2
+A25 3
+A145 4
+A985 5
+A7705 6
+A8545 7
+A8665 8
+A8685 9
+A8689 10
+DFS
+A 0
+A1 1
+A5 2
+A25 3
+A145 4
+A985 5
+A7705 6
+A8545 7
+A8665 8
+A8685 9
+A8689 10
+UCS
+A 0
+A3 6
+A15 13
+A88 24
+A588 31
+A4534 36
+A8148 44
+A8608 49
+A8675 60
+A8687 66
+A8689 92
+A*
+A 0
+A3 6
+A15 13
+A88 24
+A588 31
+A4534 36
+A8148 44
+A8608 49
+A8675 60
+A8687 66
+A8689 92
+
+input71.txt
+BFS
+S 0
+B 1
+G 2
+DFS
+S 0
+B 1
+G 2
+UCS
+S 0
+C 1
+D 2
+B 3
+G 6
+A*
+S 0
+C 1
+D 2
+B 3
+G 6
+
+input72.txt
+BFS
+A 0
+B 1
+D 2
+DFS
+A 0
+B 1
+D 2
+UCS
+A 0
+C 3
+D 5
+A*
+A 0
+C 3
+D 5
+
+input73.txt
+BFS
+A 0
+C 1
+D 2
+DFS
+A 0
+C 1
+D 2
+UCS
+A 0
+C 3
+D 5
+A*
+A 0
+C 3
+D 5
+
+input74.txt
+BFS
+A 0
+C 1
+E 2
+DFS
+A 0
+C 1
+E 2
+UCS
+A 0
+C 3
+E 4
+A*
+A 0
+C 3
+E 4
+
+input75.txt
+BFS
+A 0
+B 1
+D 2
+DFS
+A 0
+B 1
+D 2
+UCS
+A 0
+C 3
+D 5
+A*
+A 0
+C 3
+D 5
+
+input76.txt
+BFS
+A 0
+C 1
+E 2
+DFS
+A 0
+C 1
+E 2
+UCS
+A 0
+C 3
+E 4
+A*
+A 0
+C 3
+E 4
+
+input77.txt
+BFS
+A 0
+C 1
+E 2
+DFS
+A 0
+B 1
+D 2
+E 3
+UCS
+A 0
+C 3
+E 4
+A*
+A 0
+C 3
+E 4
+
+input78.txt
+BFS
+JordanHome 0
+CA73/NewportCoastDr 1
+I405/CA73 2
+I110/I405 3
+I10/I110 4
+StaplesCenter 5
+DFS
+JordanHome 0
+CA73/NewportCoastDr 1
+I405/CA73 2
+I110/I405 3
+I10/I110 4
+StaplesCenter 5
+UCS
+JordanHome 0
+CA73/NewportCoastDr 5
+I405/CA73 15
+I110/I405 40
+I10/I110 60
+StaplesCenter 63
+A*
+JordanHome 0
+CA73/NewportCoastDr 5
+I405/CA73 15
+I110/I405 40
+I10/I110 60
+StaplesCenter 63
+
+input79.txt
+BFS
+S 0
+A 1
+B 2
+G 3
+DFS
+S 0
+A 1
+B 2
+G 3
+UCS
+S 0
+A 1
+B 2
+C 3
+D 8
+E 13
+F 18
+G 23
+A*
+S 0
+A 1
+B 2
+C 3
+D 8
+E 13
+F 18
+G 23
+
+input80.txt
+BFS
+A 0
+C 1
+F 2
+DFS
+A 0
+C 1
+F 2
+UCS
+A 0
+D 1
+F 4
+A*
+A 0
+D 1
+F 4
+
+input81.txt
+BFS
+A 0
+B 1
+D 2
+DFS
+A 0
+B 1
+D 2
+UCS
+A 0
+C 3
+D 4
+A*
+A 0
+C 3
+D 4
+
+input82.txt
+BFS
+Arad 0
+Sibiu 1
+Fagaras 2
+Bucharest 3
+DFS
+Arad 0
+Sibiu 1
+Riminoca 2
+Piseti 3
+Bucharest 4
+UCS
+Arad 0
+Sibiu 140
+Riminoca 220
+Piseti 317
+Bucharest 418
+A*
+Arad 0
+Sibiu 140
+Riminoca 220
+Piseti 317
+Bucharest 418
+
+input83.txt
+BFS
+S 0
+A 1
+C 2
+E 3
+Z 4
+DFS
+S 0
+A 1
+C 2
+E 3
+Z 4
+UCS
+S 0
+A 1
+C 2
+E 3
+Z 4
+A*
+S 0
+B 1
+C 2
+E 3
+Z 4
+
+input84.txt
+BFS
+A 0
+B 1
+C 2
+D 3
+DFS
+A 0
+B 1
+C 2
+D 3
+UCS
+A 0
+B 1
+C 2
+D 3
+A*
+A 0
+B 1
+C 2
+D 3
+
+input85.txt
+BFS
+A 0
+D 1
+F 2
+G 3
+DFS
+A 0
+D 1
+F 2
+G 3
+UCS
+A 0
+D 2
+F 3
+G 4
+A*
+A 0
+D 2
+F 3
+G 4
+
+input86.txt
+BFS
+S 0
+B 1
+G 2
+DFS
+S 0
+B 1
+G 2
+UCS
+S 0
+C 1
+D 2
+B 3
+G 6
+A*
+S 0
+C 1
+D 2
+B 3
+G 6
+
+input87.txt
+BFS
+A 0
+B 1
+D 2
+G 3
+DFS
+A 0
+B 1
+D 2
+G 3
+UCS
+A 0
+B 2
+D 5
+G 6
+A*
+A 0
+B 2
+D 5
+G 6
+
+input88.txt
+BFS
+S 0
+A 1
+C 2
+E 3
+Z 4
+DFS
+S 0
+A 1
+C 2
+E 3
+Z 4
+UCS
+S 0
+A 1
+C 2
+E 3
+Z 4
+A*
+S 0
+B 1
+C 2
+E 3
+Z 4
+
+input89.txt
+BFS
+A 0
+DFS
+A 0
+UCS
+A 0
+A*
+A 0
+
+input90.txt
+BFS
+S 0
+A 1
+C 2
+E 3
+Z 4
+DFS
+S 0
+A 1
+C 2
+E 3
+Z 4
+UCS
+S 0
+A 1
+C 2
+E 3
+Z 4
+A*
+S 0
+B 1
+C 2
+E 3
+Z 4
+
+input91.txt
+BFS
+S 0
+A 1
+C 2
+E 3
+Z 4
+DFS
+S 0
+A 1
+C 2
+E 3
+Z 4
+UCS
+S 0
+A 1
+C 5
+E 6
+Z 7
+A*
+S 0
+A 1
+C 5
+E 6
+Z 7
+
+input92.txt
+BFS
+A 0
+B 1
+Z 2
+DFS
+A 0
+B 1
+Z 2
+UCS
+A 0
+D 2
+Z 4
+A*
+A 0
+D 2
+Z 4
+
+input93.txt
+BFS
+S 0
+C 1
+E 2
+Z 3
+DFS
+S 0
+C 1
+E 2
+Z 3
+UCS
+S 0
+A 1
+C 2
+E 3
+Z 4
+A*
+S 0
+B 1
+C 2
+E 3
+Z 4
+
+input94.txt
+BFS
+A 0
+C 1
+DFS
+A 0
+C 1
+UCS
+A 0
+C 4
+A*
+A 0
+C 4
+
+input95.txt
+BFS
+A 0
+B 1
+D 2
+DFS
+A 0
+B 1
+D 2
+UCS
+A 0
+C 1
+D 1
+A*
+A 0
+C 1
+D 1
+
+input96.txt
+BFS
+A 0
+B 1
+D 2
+DFS
+A 0
+B 1
+D 2
+UCS
+A 0
+B 1
+D 1
+A*
+A 0
+B 1
+D 1
+
+input97.txt
+BFS
+A 0
+E 1
+F 2
+G 3
+H 4
+DFS
+A 0
+E 1
+F 2
+G 3
+H 4
+UCS
+A 0
+I 1
+J 2
+K 3
+L 4
+H 5
+A*
+A 0
+I 1
+J 2
+K 3
+L 4
+H 5
