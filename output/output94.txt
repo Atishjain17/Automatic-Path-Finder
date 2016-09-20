@@ -1,0 +1,13 @@
+input94.txt
+BFS
+A 0
+C 1
+DFS
+A 0
+C 1
+UCS
+A 0
+C 4
+A*
+A 0
+C 4

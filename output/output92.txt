@@ -1,0 +1,17 @@
+input92.txt
+BFS
+A 0
+B 1
+Z 2
+DFS
+A 0
+B 1
+Z 2
+UCS
+A 0
+D 2
+Z 4
+A*
+A 0
+D 2
+Z 4

@@ -1,0 +1,24 @@
+input82.txt
+BFS
+Arad 0
+Sibiu 1
+Fagaras 2
+Bucharest 3
+DFS
+Arad 0
+Sibiu 1
+Riminoca 2
+Piseti 3
+Bucharest 4
+UCS
+Arad 0
+Sibiu 140
+Riminoca 220
+Piseti 317
+Bucharest 418
+A*
+Arad 0
+Sibiu 140
+Riminoca 220
+Piseti 317
+Bucharest 418

@@ -1,0 +1,17 @@
+input80.txt
+BFS
+A 0
+C 1
+F 2
+DFS
+A 0
+C 1
+F 2
+UCS
+A 0
+D 1
+F 4
+A*
+A 0
+D 1
+F 4
