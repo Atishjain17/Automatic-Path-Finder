@@ -2047,8 +2047,6 @@ F 5
 G 6
 
 input99.txt
-
-input99.txt
 BFS
 S 0
 B 1
