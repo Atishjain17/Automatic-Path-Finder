@@ -3986,27 +3986,6 @@ J 2
 K 3
 L 4
 H 5
-
-input183.txt
-BFS
-A 0
-E 1
-F 2
-G 3
-H 4
-DFS
-A 0
-E 1
-F 2
-G 3
-H 4
-UCS
-A 0
-I 1
-J 2
-K 3
-L 4
-H 5
 A*
 A 0
 I 1
@@ -4107,8 +4086,6 @@ B 3
 G3 6
 
 input188.txt
-
-input188.txt
 BFS
 A 0
 B 1
@@ -4129,8 +4106,6 @@ A 0
 B 2
 D 5
 G 6
-
-input189.txt
 
 input189.txt
 BFS
