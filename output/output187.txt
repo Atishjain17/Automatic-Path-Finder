@@ -1,0 +1,21 @@
+input187.txt
+BFS
+S 0
+B 1
+G3 2
+DFS
+S 0
+B 1
+G3 2
+UCS
+S 0
+C 1
+D 2
+B 3
+G3 6
+A*
+S 0
+C 1
+D 2
+B 3
+G3 6

@@ -1,0 +1,27 @@
+input185.txt
+BFS
+Arad 0
+Sibiu 1
+Fargaras 2
+Bucharest 3
+DFS
+Arad 0
+Timisoara 1
+Lugoj 2
+Mehadia 3
+Dobreta 4
+Craiova 5
+Pitesti 6
+Bucharest 7
+UCS
+Arad 0
+Sibiu 140
+RimnicuVilcea 220
+Pitesti 317
+Bucharest 418
+A*
+Arad 0
+Sibiu 140
+RimnicuVilcea 220
+Pitesti 317
+Bucharest 418

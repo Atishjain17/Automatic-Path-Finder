@@ -1,0 +1,29 @@
+input181.txt
+BFS
+JordanHome 0
+CA73/NewportCoastDr 1
+I405/CA73 2
+I110/I405 3
+I10/I110 4
+StaplesCenter 5
+DFS
+JordanHome 0
+CA73/NewportCoastDr 1
+I405/CA73 2
+I110/I405 3
+I10/I110 4
+StaplesCenter 5
+UCS
+JordanHome 0
+CA73/NewportCoastDr 5
+I405/CA73 15
+I110/I405 40
+I10/I110 60
+StaplesCenter 63
+A*
+JordanHome 0
+CA73/NewportCoastDr 5
+I405/CA73 15
+I110/I405 40
+I10/I110 60
+StaplesCenter 63

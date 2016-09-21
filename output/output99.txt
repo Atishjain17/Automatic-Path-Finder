@@ -1,0 +1,25 @@
+input99.txt
+BFS
+S 0
+B 1
+F 2
+D 3
+G2 4
+DFS
+S 0
+B 1
+F 2
+D 3
+G2 4
+UCS
+S 0
+B 1
+F 3
+D 4
+G2 9
+A*
+S 0
+B 1
+F 3
+D 4
+G2 9

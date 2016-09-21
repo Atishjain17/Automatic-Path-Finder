@@ -1,0 +1,15 @@
+input182.txt
+BFS
+A 0
+D 1
+DFS
+A 0
+D 1
+UCS
+A 0
+B 1
+C 2
+D 3
+A*
+A 0
+D 4
