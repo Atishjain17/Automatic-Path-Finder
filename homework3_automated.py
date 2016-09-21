@@ -1,4 +1,4 @@
-for w in range(98):
+for w in range(190):
         print("***************************"+str(w))
         input_file_name='input'+str(w)+'.txt'
         output_file_name='output\output'+str(w)+'.txt'
