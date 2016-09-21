@@ -2023,3 +2023,25 @@ J 2
 K 3
 L 4
 H 5
+
+input98.txt
+BFS
+A 0
+B 1
+D 2
+G 3
+DFS
+A 0
+B 1
+D 2
+G 3
+UCS
+A 0
+C 2
+E 5
+G 6
+A*
+A 0
+C 2
+F 5
+G 6
