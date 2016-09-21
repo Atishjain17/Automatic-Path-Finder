@@ -304,8 +304,14 @@ for w in range(190):
         ### Astar
         def AStar():
 
+            cs=-1
+            for j in range(len(sunday_TrafficLines)):
+                if(start_state == sunday_TrafficLines[j][0]):
+                    cs = j
+                    break
+
             node_state_no = 1
-            root_node = Node_State_Heuristic(node_state_no,start_state,0,0,0,sunday_TrafficLines[0][1],sunday_TrafficLines[0][1])
+            root_node = Node_State_Heuristic(node_state_no,start_state,0,0,0,sunday_TrafficLines[cs][1],sunday_TrafficLines[cs][1])
             opened.append(root_node)
 
             while (opened != []):
