@@ -1,5 +1,5 @@
 ### Input Code
-input_file = open('input.txt','r')
+input_file = open('input1.txt','r')
 input = input_file.read()
 input_file.close()
 input = input.split('\n')
@@ -109,7 +109,7 @@ def printtofile(sol):
         parent_node = parent_found.parent
     #print (solution)
 
-    f = open("output.txt", "w")
+    f = open("output1.txt", "w")
 #    f.write(algo+"\n")
     for i in solution[::-1]:
         f.write(i[0]+" "+str(i[1])+"\n")
@@ -276,9 +276,14 @@ def UCS():
 
 ### Astar
 def AStar():
+    cs=-1
+    for j in range(len(sunday_TrafficLines)):
+        if(start_state == sunday_TrafficLines[j][0]):
+            cs = j
+            break
 
     node_state_no = 1
-    root_node = Node_State_Heuristic(node_state_no,start_state,0,0,0,sunday_TrafficLines[0][1],sunday_TrafficLines[0][1])
+    root_node = Node_State_Heuristic(node_state_no,start_state,0,0,0,sunday_TrafficLines[cs][1],sunday_TrafficLines[cs][1])
     opened.append(root_node)
 
     while (opened != []):
